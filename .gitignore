@@ -1,0 +1,16 @@
+# Virtual environment: recreated from requirements.txt
+.venv/
+
+# Python cache: generated automatically when the code runs
+__pycache__/
+
+# pytest cache: remembers results from the last test run
+.pytest_cache/
+
+# Raw market data: large files, and the providers' terms don't allow
+# redistribution. See README for how to download the data.
+data/
+
+# Credentials (API keys, passwords): must never be committed.
+# Python projects conventionally store these in a .env file.
+.env
